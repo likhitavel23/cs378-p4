@@ -1,7 +1,7 @@
 /* src/App.js */
 
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router,Route,Routes } from 'react-router-dom';
 import BuyCurrency from './components/BuyCurrency';
 import OrderPage from './components/OrderPage';
 import './styles.css';
